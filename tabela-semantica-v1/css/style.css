@@ -1,0 +1,47 @@
+body{
+    background-color: grey;
+    color: black;
+}
+
+ 
+ #tabela02{
+    border: 3px solid blue;
+    box-shadow: 4px 4px 4px  deepskyblue;
+    border-collapse: collapse; /* juntar as linhas da borda*/
+    background-color: whitesmoke;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+ }  
+
+ #tabela02 td{
+    border: 1px solid black;
+    width: 300px;
+    height: 80px;
+ }
+
+#tabela02 caption{
+    color: black;
+}
+
+
+ #tabela02 tr:nth-child(even) { /*Fileira - tr - tablw row - linhas pares com fundo ciano*/
+    background-color: deepskyblue;
+}
+
+#tabela02 td:hover{
+ background-color:grey;
+}
+
+
+#tabela02 tr:hover{
+    background-color: grey;
+   }
+
+#rodape{
+    text-align: center;
+}  
+
+.sublinhado{
+    text-decoration: underline;
+}

@@ -1,0 +1,89 @@
+/* Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: green;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: black;
+    color: lime;
+    text-align: center;
+    width: 100%;
+}
+
+/*------ Estilização do placar -------*/
+.placar{
+    margin: 20px auto; /*centralizar a caixa*/
+    background-color:black;
+    color: lime;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    font-size: 42px;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.badge{
+    background-color: black;
+    font-size: 14px;
+    padding: 2px 15px;
+}
+
+#jogador{
+    position: absolute;
+    top: 30px;
+    left: -84px;
+}
+
+#computador{
+    position: absolute; /*ao colar o absolute podemos definir o local dele na pagina*/
+    top: 30px;
+    right: -57px;
+    background-color: black;
+}
+
+/*------ Resultado do Jogo ------*/
+.resultado{
+    font-size: 40px;
+    font-weight: bold; /*Negrinho pastoreiro*/
+    text-align: center;
+}
+
+/*------ Escolhas ------*/
+.escolhas{
+    text-align: center;
+    margin-top: 50px;
+}
+
+button.escolha{
+    border: 5px solid black;
+    border-radius: 50%;
+    font-size: 44px;
+    padding: 10px;
+    margin:0 20px;
+    transition: all .3s ease;
+}
+
+.escolha:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+.escolha:active{
+    background-color: lime;
+}
+
+#jogada{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+}

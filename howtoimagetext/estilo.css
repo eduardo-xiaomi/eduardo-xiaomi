@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(73, 73, 73);
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+img{
+    height: 50%;
+    width: 1000px;
+    border: 3px solid black;
+}
+
+.baixoE{
+    position: absolute;
+    top: 600px;
+    left:150px;
+}
+
+.cimaE {
+    position: absolute;
+    top: 8px;
+    left: 150px;
+  }
+  
+  .cimaR {
+    position: absolute;
+    top: 8px;
+    right: 160px;
+  }
+  
+  .baixoR {
+    position: absolute;
+    bottom: 8px;
+    right: 160px;
+  }
+  
+  .cadu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
